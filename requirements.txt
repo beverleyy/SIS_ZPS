@@ -1,0 +1,5 @@
+ipykernel==6.16.2
+ipython==7.34.0
+jupyter==1.0.0
+matplotlib==3.5.0
+numpy==1.21.6
