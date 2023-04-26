@@ -23,3 +23,9 @@ If you are running the Instructor version of the code, make a new directory to s
 As this exercise was created for a target audience of Primary 5 students, all the CFD code has been set aside in the file `solvers.py`. The code solves the incompressible Navier-Stokes equations in two dimensions using the finite volume method. Central differencing is applied for diffusion terms and upwind differencing for convective terms. Number of inner iterations for pressure solver can be controlled using `nit` variable.
 
 The Jupyter notebook imports the `solve_cavity()` function from `solvers.py` and runs it per timestep. The student version will require input for the domain boundaries, grid size, timestep size, number of timesteps, and the lid velocity. 
+
+## Result
+
+The lid-driven cavity result with default values (`nx=ny=10`, `dt=0.0001`, `n_time=10000`, and `u_lid=10`) is shown below:
+
+![sample_result](result_10000_1600_10.png)
